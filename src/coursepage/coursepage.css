@@ -1,0 +1,811 @@
+.navbar {
+    background: #0a2540;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: cenetr;
+    height: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 45%;
+    margin-right: 40px;
+}
+
+ul li {
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 1;
+    font-weight: semi-bold;
+    padding: 10px;
+}
+
+.highlight {
+    border: 2px solid #bdea09;
+    color: #bdea09;
+    padding: 10px 15px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* carsoule */
+
+.carousel{
+    background: url("/public/MainBanner.webp")
+    no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.carousel-cards{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+    box-shadow: 0px 5px 10px 0px gray;
+}
+
+#icon{
+    font-size: 55px;
+    color: #bdea09;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-laptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style:none solid none solid;
+    border-color: #bdea09;
+    width: 400px;
+}
+
+.card p{
+    margin: 15px;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+    font-size: 22px;
+}
+
+.card-laptop p{
+    margin: 15px;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+    font-size: 22px;
+}
+
+.ptag-sub{
+    margin: 15px;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200 !important;
+    font-style: normal;
+    font-size: 14px !important;
+    color: gray
+}
+
+.carsoule-typo{
+    position: absolute;
+    left : 10%;
+    top: 35%;
+    width: 42%;
+}
+
+.carsoule-typo h2{
+    color: white;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    font-size: 35px;
+}
+
+.carsoule-typo p{
+    color: white;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* contentA */
+
+.content-A{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.typo-oppotny{
+    width: 60%;
+}
+
+.typo-oppotny h2{
+    color: #bdea09;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 35px;
+}
+
+.typo-oppotny p{
+    color: gray;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 16px;
+}
+/* ----------------------------sub1---------------------------------------- */
+.palcement-prtnr{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.palcement-prtnr h2{
+    color: #bdea09;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 35px;
+}
+
+.partner-img{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.prtner-img-contnr{
+    margin: 20px;
+}
+
+.prtner-img{
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px gray;
+}
+
+/* ----------------------------sub2---------------------------------------- */
+
+.insurance-prgm{
+    text-align:center ;
+    width: 80%;
+    margin: auto;
+}
+
+.insurance-prgm h2{
+    color: #bdea09;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 35px;
+}
+
+.insurance-prgm p{
+    color: gray;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.plcmnt-card-cntner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.plcmnt-card{
+    width: 350px;
+    text-align: left;
+    padding: 35px;
+    margin: 5px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px gray;
+}
+
+.plcmnt-card h3{
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+    font-size: 25px;
+}
+
+.btn-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btn-container button{
+    padding: 15px 20px;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    background-color: #0a2540;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+/* ----------------------------sub3---------------------------------------- */
+
+.join-prgrm{
+    text-align:center ;
+    width: 90%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.join-prgrm h2{
+    color: #bdea09;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 35px;
+}
+
+.join-prgrm-stps{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prgrm-stps-crd{
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    margin: 8px;
+    box-shadow: 0px 5px 10px 0px gray;
+    padding: 12px;
+}
+
+.prgrm-stps-crd p{
+    color: rgb(36, 35, 35);
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+/* ----------------------------sub4---------------------------------------- */
+
+.learn-process{
+    text-align:center ;
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.learn-process h2{
+    color: #bdea09;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 35px;
+}
+
+.learn-card-cntner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.learn-card{
+    width: 350px;
+    text-align: left;
+    padding: 35px;
+    margin: 5px;
+    height: 350px;
+}
+
+.learn-card h3{
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+    font-size: 22px;
+}
+
+.learn-card p{
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 16px;
+    color:gray;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* contentB */
+
+.career-suprt{
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.career-suprt h2{
+    color: #bdea09;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 35px;
+}
+
+.career-suprt p{
+    color:gray;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.course{
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.course h2{
+    color: #bdea09;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+    font-size: 30px;
+}
+
+.course-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+    margin: 35px 30px;
+    border: 1px solid #bdea09;
+    border-radius: 5px;
+    padding: 5px 18px;
+    color: #bdea09;
+}
+
+.content-cards p{
+    color:rgb(34, 33, 33) !important;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.img-smile{
+    margin-top: 100px;
+}
+
+.faq{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.faq h2{
+    color: #bdea09;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 30px;
+}
+
+.faq-container{
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.qstns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 30px;
+    border-radius: 5px;
+    padding: 5px 18px;
+    color: #bdea09;
+    background-color: #f9f9f9;
+}
+
+.qstns p{
+    color:rgb(34, 33, 33) !important;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+    font-size: 18px;
+}
+
+.brochure{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #bdea09;
+    padding: 16px;
+    margin-top: 140px;
+}
+
+.brochure h2{
+    color: #0a2540;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 30px;
+}
+
+.brochure button{
+    border: none;
+    outline: none;
+    padding: 18px 25px;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+    font-size: 18px;
+}
+/*---------------------------------------reviews-------------------------------------------*/
+
+.reviews-carousel{
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 40px;
+    margin-top: 120px;
+}
+
+.register-box{
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    padding: 20px;
+}
+
+.register-box h3{
+    color: #333339;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+    font-size: 25px;
+}
+
+.register-box button{
+    padding: 15px 20px;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    background-color: #0a2540;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.joining-perks{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #333339;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+    font-size: 16px;
+    margin: 5px 15px;
+}
+
+.checkmark{
+    color:#bdea09;
+}
+
+.register-box h4{
+    color: #333339;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+    font-size: 20px;
+}
+
+.reviews-carousel h3{
+    color: #2D6974;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 35px;
+}
+
+.carsoule-rvw{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.rvw-card{
+    width: 550px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.card-body p{
+    color:rgb(34, 33, 33);
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+    font-size: 20px;
+}
+
+.card-rvw-txt p{
+    color:rgb(34, 33, 33);
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.rvw-card-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.card-rvw-txt{
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------------------------------------footer---------------------------------------------------- */
+
+.footer-body{
+    background-image: linear-gradient(to right, #03a4cc 0%, #1323b6 100%);
+}
+
+.join-us{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+}
+
+.join-us h2{
+    color: white;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+    font-size: 30px;
+}
+
+.email-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.email-input{
+    width: 50%;
+    height: 15%;
+    border: 2px solid #bdea09;
+    font-size: 18px;
+    padding: 20px 45px 20px 20px;
+    color: #bdea09;
+    outline: none;
+    background: transparent;
+}
+
+::-webkit-input-placeholder{
+    color:#bdea09
+}
+
+.email-box button{
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    color:black;
+    background-color: #bdea09;
+    padding:20px 30px;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.footer-logo{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #bdea09;
+}
+
+.scl-mda-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #bdea09;
+    font-size: 25px;
+}
+
+.socila-media h3{
+    color: white;
+    text-align: right;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.scl-mda{
+    margin: 5px 8px;
+}
+
+.footer-details-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: top;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.details-sub{
+    color:white;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.details-head{
+    color:white;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.copyright{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid #bdea09;
+}
+
+.copyright p{
+    color:white;
+    font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+    font-size: 16px;
+}
